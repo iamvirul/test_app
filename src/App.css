@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Gloock&display=swap');
+
 .App {
   text-align: center;
 }
@@ -32,7 +37,65 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.imagelogo {
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s infinite alternate both;
+  animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s infinite alternate both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.rowdev{
+  padding-top: 8rem;
+}
+
+.name {
+  /* font-family: 'Gloock', serif; */
+  font-size: 3rem;
+}
+
+.name2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Gloock', serif;
+  font-size: 3rem;
+letter-spacing: 0.cm;
+}
+
+.name3 {
+  color: #4169E1;
+}
+.para{
+  letter-spacing: 1px;
 }
