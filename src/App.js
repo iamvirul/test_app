@@ -9,6 +9,7 @@ import {
   Twitter,
   Youtube,
 } from "react-bootstrap-icons";
+import About from "./pages/about";
 
 function App() {
   const name = "<virul.n/>";
@@ -20,7 +21,7 @@ function App() {
           <span className="imagelogo">{name}</span>
         </div>
         <div className=" ms-5 col-6 d-flex align-items-center justify-content-end">
-          <ArrowRight
+          <ArrowRight onClick={About}
             size={40}
             color={"royalblue"}
             className="scale-up-center"
@@ -39,10 +40,10 @@ function App() {
               </span>
             </div>
             <div className="d-flex align-items-center justify-content-center">
-              <span>Business Enthusiast | Software Engineer</span>
+              <span className="scale-up-hor-left">Business Enthusiast | Software Engineer</span>
             </div>
-            <div className="d-flex align-items-center justify-content-center p-5 para">
-              <p>
+            <div className="d-flex align-items-center justify-content-center p-5 para text-focus-in">
+              <p className="shadow-drop-2-center para ">
                 As a programmer, I am delighted with my current state of
                 affairs. I possess an ardent passion for coding and I am
                 consistently driven to explore new technologies and programming
@@ -53,12 +54,12 @@ function App() {
                 pushing myself to reach new heights in my abilities.
               </p>
             </div>
-            <div className="d-flex align-items-center justify-content-center p-2">
-              <div className=" mb-5">
+            <div className="d-flex align-items-center justify-content-center p-2 ">
+              <div className=" mb-5 shadow-drop-2-tb ">
                 <a href="https://www.instagram.com/virul_n_w/">
                   <Instagram
                     size={30}
-                    className=" text-decoration-none me-3 text-dark  "
+                    className=" text-decoration-none me-3 text-dark   "
                   />
                 </a>
                 <a href="https://www.facebook.com/virulnirmala/">
@@ -93,5 +94,7 @@ function App() {
     </div>
   );
 }
+  export default App 
 
-export default App;
+
+
