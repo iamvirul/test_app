@@ -8,7 +8,7 @@ const animation = {
 
 function AnimationPage({ children }) {
   return (
-    <motion.div
+    <motion.div className="motiondive"
       variants={animation}
       inherit="initial"
       animate="animate"

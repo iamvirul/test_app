@@ -45,7 +45,7 @@
 
 .imagelogo {
   font-family: 'Spline Sans Mono', monospace;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -236,4 +236,12 @@ letter-spacing: 0.cm;
 }
 .rowdev{
   margin-top: 30px;
+}
+.rights{
+  /* margin-top: 50px; */
+  font-size: 15px;
+}
+.motiondive{
+    align-items: center;
+    justify-content: center;
 }
