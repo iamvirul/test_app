@@ -37,7 +37,7 @@ function Home() {
                 </div>
                 <div className=" d-flex align-items-center justify-content-center">
                   <span className="name2 ">
-                    VIRU<span className="name3">L NIRMAL</span>
+                    VIRU<span className="name3">L NIRMALA</span>
                   </span>
                 </div>
                 <div className="d-flex align-items-center justify-content-center">
