@@ -33,7 +33,7 @@ function Home() {
             <div className="row">
               <div className=" col-lg-6">
                 <div className=" d-flex  align-items-center justify-content-center">
-                  <span className=" d-flex text-center name"> I'm</span>
+                  <span className=" d-flex text-center name">Hey I'm</span>
                 </div>
                 <div className=" d-flex align-items-center justify-content-center">
                   <span className="name2 ">
