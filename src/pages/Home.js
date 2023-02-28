@@ -25,7 +25,7 @@ function Home() {
   return (
     <AnimationPage>
       {loading ? (
-        <HashLoader color={"#4169e1"} loading={loading} size={80} />
+        <HashLoader color={"#4169e1"} loading={loading} size={60} />
       ) : (
         <div className="col-12">
           <Navbar/>

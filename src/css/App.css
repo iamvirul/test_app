@@ -245,3 +245,31 @@ letter-spacing: 0.cm;
     align-items: center;
     justify-content: center;
 }
+.imagelogo2 {
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.aboutdiv{
+  height: 230px;
+  border-radius: 10px;
+}
+.smalldiv1{
+background-color: rgba(195, 193, 193, 0.45);
+border-radius: 20px 20px 20px 20px;
+padding-bottom: 20px;
+
+}
+.borderdiv{
+  border-style: solid;
+  border-width: 2px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-color: #4169E1;
+
+}
+.margindiv{
+  margin-top: 200px;
+}
