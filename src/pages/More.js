@@ -32,6 +32,7 @@ export default function More() {
                   <span></span>
                 </li>
               </Link>
+              <Link to={"/Contact"} className=" text-decoration-none">
               <li>
                 Contact <ArrowRight size={24} className="arrow" />
                 <span></span>
@@ -39,6 +40,8 @@ export default function More() {
                 <span></span>
                 <span></span>
               </li>
+              </Link>
+             
               <li>
                 Services
                 <ArrowRight size={24} className="arrow" />

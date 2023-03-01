@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+.hello{
+    height: 75vh;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.contact{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+
+}
+/* .paracontact{
+    width: 50%;
+} */
+.meide{
+    padding-top: 50px;
+}
+.social_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.social_media1{
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.socaillink{
+    padding-left: 80px;
+}
+.gmail{
+    font-size: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.footerpadding{
+    margin-top: 100px;
+}
+.paragraptxt{
+    padding-left:20px ;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
