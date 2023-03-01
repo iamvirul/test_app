@@ -42,7 +42,7 @@ function Home() {
                 </div>
                 <div className="d-flex align-items-center justify-content-center">
                   <span className="scale-up-hor-left">
-                    Business Enthusiast | Software Engineer
+                    Business Enthusiast | Software Developer
                   </span>
                 </div>
                 <div className="d-flex align-items-center justify-content-center p-4 para text-focus-in">
