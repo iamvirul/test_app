@@ -1,6 +1,6 @@
 {
   "name": "test_app",
-  "homepage": "https://virul.info",
+  "homepage": "https://virul.info/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
