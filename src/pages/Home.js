@@ -45,7 +45,7 @@ function Home() {
                     Business Enthusiast | Software Developer
                   </span>
                 </div>
-                <div className="d-flex align-items-center justify-content-center p-4 para text-focus-in">
+                <div className="d-flex align-items-center justify-content-center p-4 text-focus-in">
                   <p className="shadow-drop-2-center para ">
                     As a programmer, I am delighted with my current state of
                     affairs. I possess an ardent passion for coding and I am
