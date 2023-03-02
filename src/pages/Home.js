@@ -27,7 +27,7 @@ function Home() {
       {loading ? (
         <HashLoader color={"#4169e1"} loading={loading} size={60} />
       ) : (
-        <div className="col-12">
+        <div className="col-12 maindiv">
           <Navbar/>
           <div className=" col-12 rowdev">
             <div className="row">
