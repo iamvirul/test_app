@@ -72,20 +72,6 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="d-block d-lg-none col-11 mt-3">
-            <div className=" d-flex col-12 justify-content-center">
-              <span className="rights footerpadding">
-                All right reserved 2023 ® | develope by virul.n
-              </span>
-            </div>
-          </div>
-          <div className=" d-none d-lg-block col-11 mt-3 pt-4">
-            <div className=" d-flex col-12 justify-content-end">
-              <span className="rights footerpadding">
-                All right reserved 2023 ® | develope by virul.n
-              </span>
-            </div>
-          </div>
         </div>
       )}
     </AnimationPage>

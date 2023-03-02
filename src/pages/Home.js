@@ -29,7 +29,7 @@ function Home() {
       ) : (
         <div className="col-12 maindiv">
           <Navbar/>
-          <div className=" col-12 rowdev">
+          <div className=" col-12">
             <div className="row">
               <div className=" col-lg-6">
                 <div className=" d-flex  align-items-center justify-content-center">
@@ -93,13 +93,13 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className=" d-none d-lg-block col-lg-6">
+              <div className=" d-flex justify-content-end d-none d-lg-block col-lg-4 p-0">
+                
                 <img
                   src={require("../images/me.png")}
-                  className="imagelogo p-0 melogo text-focus-in"
+                  className=" d-flex imagelogo p-0 melogo text-focus-in"
                   alt="me"
-                  height="600"
-                  width={"500"}
+                  height="500"
                 />
               </div>
             </div>
