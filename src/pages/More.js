@@ -42,14 +42,14 @@ export default function More() {
               </li>
               </Link>
              
-              <li>
+              {/* <li>
                 Services
                 <ArrowRight size={24} className="arrow" />
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
