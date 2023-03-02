@@ -8,7 +8,7 @@ const name = "<virul.n/>";
       <div className="row">
         <div className=" col-12 d-flex">
           <span className=" col-lg-5 p-5 imagelogo">{name}</span>
-          <div className=" col-6 col-lg-6 text-end d-flex align-items-center justify-content-end ms-5">
+          <div className="col-lg-6 text-end d-flex align-items-center justify-content-center justify-content-lg-end  ms-5 ps-5">
           <Link
             to={"/More"}
           >
