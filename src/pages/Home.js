@@ -98,7 +98,7 @@ function Home() {
                   src={require("../images/me.png")}
                   className=" d-flex imagelogo p-0 melogo text-focus-in"
                   alt="me"
-                  height="600"
+                  height="500"
                 />
               </div>
             </div>
