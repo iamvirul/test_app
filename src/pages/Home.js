@@ -29,8 +29,7 @@ function Home() {
       ) : (
         <div className="col-12 maindiv">
           <Navbar/>
-          <div className=" col-12">
-            <div className="row">
+          <div className=" col-12 d-flex">
               <div className=" col-lg-6">
                 <div className=" d-flex  align-items-center justify-content-center">
                   <span className=" d-flex text-center name">Hey I'm</span>
@@ -99,7 +98,7 @@ function Home() {
                   src={require("../images/me.png")}
                   className=" d-flex imagelogo p-0 melogo text-focus-in"
                   alt="me"
-                  height="500"
+                  height="600"
                 />
               </div>
             </div>
@@ -118,7 +117,6 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
       )}
     </AnimationPage>
   );

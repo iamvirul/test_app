@@ -30,7 +30,7 @@ function About() {
             </div>
 
             <div className=" col-12 pt-5">
-              <div className=" row  d-flex justify-content-center">
+              <div className=" d-flex justify-content-center">
                 <div className=" col-10 col-lg-8 borderdiv text-focus-in">
                   <p>
                     Hi, my name is <span className="spanvirul">Virul</span>, and I'm a passionate individual
